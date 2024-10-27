@@ -1,0 +1,40 @@
+/* Add custom styles for compose.hbs */
+/* Example styles */
+body {
+    background-color: #f8f9fa;
+  }
+  
+  .container-fluid {
+    padding-top: 20px;
+  }
+  
+  #composeForm {
+    background-color: #ffffff;
+    border: 1px solid #ced4da;
+    border-radius: 5px;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  #composeForm label {
+    font-weight: bold;
+  }
+  
+  #composeForm textarea {
+    resize: vertical;
+  }
+  
+  #composeForm input[type="file"] {
+    padding: 10px;
+    border: 1px solid #ced4da;
+    border-radius: 5px;
+  }
+
+  #composeModal {
+    max-width: 90%; /* Adjust the width as needed */
+  }
+
+  .modal-content {
+    max-height: 80vh; /* Adjust the height as needed */
+    overflow-y: auto; /* Add scroll if content exceeds the height */
+  }

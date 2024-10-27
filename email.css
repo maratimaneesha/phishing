@@ -1,0 +1,58 @@
+body {
+  font-family: Arial, sans-serif;
+}
+
+.header {
+  background-color: #f8f9fa;
+  padding: 10px 20px;
+  border-bottom: 1px solid #dee2e6;
+}
+
+.header .logo img {
+  height: 40px;
+}
+
+.header .search-bar {
+  flex-grow: 1;
+}
+
+.header .user-menu img {
+  height: 40px;
+  border-radius: 50%;
+}
+
+.sidebar {
+  background-color: #f8f9fa;
+  padding: 10px;
+}
+
+.sidebar .nav-link {
+  color: #000;
+}
+
+.sidebar .nav-link.active {
+  font-weight: bold;
+}
+
+.main-content {
+  padding: 20px;
+}
+
+.email-list {
+  border: 1px solid #dee2e6;
+  border-radius: 5px;
+}
+
+.email-item {
+  padding: 10px;
+  border-bottom: 1px solid #dee2e6;
+}
+
+.email-item:last-child {
+  border-bottom: none;
+}
+
+.modal-dialog{
+  max-width: 700px;
+  margin: 1.75rem auto;
+}
